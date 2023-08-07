@@ -7,9 +7,13 @@
     <title>Стр 1</title>
 </head>
 <body>
-    <a href="page2.html" target="_blank">
-        Ccылка на стрницу 2
-    </a>
+    <nav class="navbar bg-body-tertiary">
+        <form class="container-fluid justify-content-start">
+            <a href="page1.html" class="btn btn-primary" >Домашняя страница</a>
+            <a href="page2.html" class="btn btn-sm btn-outline-secondary" type="button" target="_blank">Бездомная страница</a>
+        </form>
+    </nav>
+
     <form action="">
         <div class="mb-3">
             <label class="form-label" for="field1">Напиши имя</label>
@@ -25,7 +29,7 @@
             <label class="form-label" for="field3">Пароль</label>
             <input type="password" class="form-control" id="field3">
         </div>
-        
+
         <div class="mb-3">
             <textarea name="comment" cols="40" rows="3"></textarea>
         </div>
